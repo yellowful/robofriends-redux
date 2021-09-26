@@ -7,7 +7,8 @@ import thunkMiddleware from 'redux-thunk';
 import 'tachyons';
 
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+
 import { requestRobots, searchRobots } from './reducers'
 
 import './index.css';
@@ -24,4 +25,6 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-registerServiceWorker();
+
+serviceWorkerRegistration.register();
+
