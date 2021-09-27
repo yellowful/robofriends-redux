@@ -1,8 +1,7 @@
-# robofriends
-React + Redux
+# Exercize of PWAs
 
-To run the project:
+This is an exercise of progressive web app implementation.
 
-1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
+It passes all the checks of Lighthouse.
+
+![Lighthouse report](./lighthouse.jpg "Lighthouse report")
