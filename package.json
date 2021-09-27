@@ -10,7 +10,6 @@
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "sw-precache": "^4.0.0",
     "tachyons": "^4.12.0",
     "workbox-background-sync": "^5.1.4",
     "workbox-broadcast-update": "^5.1.4",
@@ -27,7 +26,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp public/manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
